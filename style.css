@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/*--------------Navbar----------------*/
+#navbarNav {
+  justify-content: flex-end;
+}
+/*---------Home-----------------------*/
+.home {
+  width: 100%;
+  height: 700px;
+  background-image: url(/image/libraryBooks.jpg);
+  background-color: rgba(199, 199, 199, 0.539); /* Overlay color and opacity */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: 100% 722px;
+}
+.content {
+  color: rgb(8, 1, 1);
+  font-size: 40px;
+  font-weight: 400;
+  text-shadow: 0px 1px 1px black;
+  padding-top: 200px;
+}
+/*--------------About--------------*/
+#about {
+  height: fit-content;
+  width: 100%;
+  background-color: rgba(179, 166, 163, 0.779);
+}
+#about img {
+  margin: 45px;
+  height: 450px;
+}
+#a-text {
+  margin-top: 45px;
+  margin-left: 80px;
+  font-size: 22px;
+}
+/* --------------About 2-------------------- */
+#about2 {
+  height: fit-content;
+  width: 100%;
+  background-color: rgb(239, 249, 253);
+}
+#about2 img {
+  margin: auto;
+  width: 80%;
+  height: 120px;
+}
+#a2-text {
+  font-size: 23px;
+  margin: auto;
+  text-align: left;
+  width: fit-content;
+}
+/*---------------Add book-----------*/
+#bt {
+  background-color: #d6ecf0;
+  color: black;
+}
+#bt:hover {
+  font-size: larger;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: #84cdda;
+}
+/* -------------------Footer------------- */
+.footer {
+  width: 100%;
+  height: 27px;
+  background-color: black;
+}
+.footer p {
+  color: white;
+  text-align: center;
+}
